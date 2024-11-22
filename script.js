@@ -6,7 +6,7 @@ iframe.contentWindow.postMessage(
       // Your Meta AI configuration (if needed)
     }
   }),
-  'https://chat.meta.ai'
+  'https://www.meta.ai'
 );
 
 // Handle messages from Meta AI
