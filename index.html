@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meta AI Chat Widget</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://cdn.jsdelivr.net;">
-    <style>
-        body {
-            background-color: #f0f0f0;
-        }
-    </style>
-</head>
-<body>
-    <h1>Meta AI Chat Widget</h1>
-    <div id="chat-widget"></div>
-    <script src="https://cdn.jsdelivr.net/npm/@meta.ai/chat-widget@latest/dist/chat-widget.js"></script>
-    <script>
-        console.log("Chat widget script loaded");
-        const chatWidget = document.getElementById("chat-widget");
-        chatWidget.innerHTML = "Chat widget loading...";
-        // Initialize the chat widget
-        MetaAIChatWidget.init(chatWidget);
-    </script>
-</body>
-</html>
+<iframe 
+  id="meta-ai-iframe" 
+  src="" 
+  style="width: 100%; height: 500px; border: none;">
+</iframe>
